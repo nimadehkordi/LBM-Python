@@ -1,10 +1,11 @@
 #-------------imports-------------
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
+
 plt.rcParams.update({'font.size': 16})
 from mpi4py import MPI
-
 import constants
+
 # -------------functions-------------
 # calculate density at x, t point on pdfGrid d
 def f_rho(f):
